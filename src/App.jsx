@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Admin authProvider={authProvider} dataProvider={dataProvider}>
-        <Resource name="users" list={UsersList} edit={UsersEdit} />
+        <Resource name="teachers" list={UsersList} edit={UsersEdit} />
       </Admin>
     </div>
   );

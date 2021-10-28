@@ -22,12 +22,10 @@ const UsersEdit = (props) => {
         <TextInput source="firstname" label="Prénom" />
         <TextInput source="lastname" label="Nom" />
         <TextInput source="zipcode" label="Prénom" />
-        <TextInput source="city" label="Code Postal" />
-        <TextInput source="country" label="Pays" />
         <TextInput source="email" />
         <TextInput source="mobile" min={10} max={10} />
         <SelectInput
-          source="isStaff"
+          source="admin"
           choices={[
             { id: '0', name: 'Non' },
             { id: '1', name: 'Oui' },
